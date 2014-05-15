@@ -21,6 +21,7 @@
 		2E173445192270ED00E90138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E173427192270ED00E90138 /* UIKit.framework */; };
 		2E17344D192270ED00E90138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E17344B192270ED00E90138 /* InfoPlist.strings */; };
 		2E17344F192270ED00E90138 /* IntergalacticTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E17344E192270ED00E90138 /* IntergalacticTravelTests.m */; };
+		2E17345A192284A800E90138 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E173459192284A800E90138 /* VacationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2E17344A192270ED00E90138 /* IntergalacticTravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntergalacticTravelTests-Info.plist"; sourceTree = "<group>"; };
 		2E17344C192270ED00E90138 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E17344E192270ED00E90138 /* IntergalacticTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelTests.m; sourceTree = "<group>"; };
+		2E173458192284A800E90138 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		2E173459192284A800E90138 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				2E173432192270ED00E90138 /* AppDelegate.h */,
 				2E173433192270ED00E90138 /* AppDelegate.m */,
 				2E173435192270ED00E90138 /* Main.storyboard */,
+				2E173458192284A800E90138 /* VacationViewController.h */,
+				2E173459192284A800E90138 /* VacationViewController.m */,
 				2E173438192270ED00E90138 /* ViewController.h */,
 				2E173439192270ED00E90138 /* ViewController.m */,
 				2E17343B192270ED00E90138 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				2E17343A192270ED00E90138 /* ViewController.m in Sources */,
 				2E173434192270ED00E90138 /* AppDelegate.m in Sources */,
 				2E173430192270ED00E90138 /* main.m in Sources */,
+				2E17345A192284A800E90138 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

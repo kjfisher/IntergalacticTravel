@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VacationViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,42 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    VacationViewController *nextViewController = [segue destinationViewController];
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if ([segue.identifier isEqualToString:@"BlueStarSeque"])
+    {
+        nextViewController.image = [UIImage imageNamed:(@"blueStar")];
+        nextViewController.view.backgroundColor = [UIColor blueColor];
+
+    }
+    else
+    {
+        nextViewController.image = [UIImage imageNamed:@"redDwarf"];
+        nextViewController.view.backgroundColor = [UIColor redColor];
+    }
+}
+-(IBAction) unwindFromVacationViewController:(UIStoryboardSegue *)sender{
+    NSLog(@"Booked!");
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//UIView *nextViewControllerView = [nextViewController view];
+//[nextViewControllerView setBackgroundColor:[UIColor redColor]];
+//UIViewController *nextViewController = segue.destinationViewController;
+//nextViewController.viewbacgroundColor = [UIColor redColor];
